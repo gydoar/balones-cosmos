@@ -1,0 +1,1533 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cosmos</title>
+	
+	<link rel="apple-touch-icon" href="assets/img/favicon/apple-touch.png">
+	<link rel="icon" type="image/png" href="assets/img/favicon/ico.png">
+	
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="assets/css/jquery.rondell.css" type="text/css" media="all" title="Screen">
+	<link rel="stylesheet" href="assets/css/styles.css" />
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Google Analytics -->
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-68105728-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+	</head>
+	<body>
+
+		<!-- Google Tag Manager -->
+		<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PHZJRT"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-PHZJRT');</script>
+		<!-- End Google Tag Manager -->
+
+		<div id="header2" class="header-top">
+			<div class="container">
+				<div class="row">
+					<nav class="navbar navbar-default" id="menu-header">
+					  	<div class="container-fluid">
+					  		<div class="col-sm-3 col-md-2">
+					  			<div id="logo" class="logo hidden-xs visible-sm-block visible-md-block visible-lg-block">
+									<a href="index.html"><img src="assets/img/logo_cosmos.png"></a>
+								</div>
+								<div id="logo2" class="logo visible-xs-block hidden-sm hidden-md hidden-lg">
+									<a href="index.html"><img src="assets/img/logo_cosmos.png"></a>
+								</div>
+					  		</div>							
+							<div class="col-sm-9 col-md-10">							
+							    <!-- Brand and toggle get grouped for better mobile display -->
+							    <div class="navbar-header">
+							      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-header-collapse" aria-expanded="false">
+							        <span class="sr-only">Toggle navigation</span>
+							        <span class="icon-bar"></span>
+							        <span class="icon-bar"></span>
+							        <span class="icon-bar"></span>
+							      </button>
+							    </div>
+							    <!-- Collect the nav links, forms, and other content for toggling -->
+							    <div class="collapse navbar-collapse" id="menu-header-collapse">
+							      <ul class="nav navbar-nav navbar-right" id="menu-top">
+							        <li class="li-inicio"><a href="index.html">INICIO</a></li>
+
+							        <li class="dropdown visible-xs-block hidden-sm hidden-md hidden-lg">
+								         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">FÚTBOL <span class="caret"></span></a>
+								         <ul class="dropdown-menu futbol-dropdown">
+								            <li class="li-futbol"><a href="futbol.html?type=no_5">NÚMERO CINCO</a></li>
+									        <li class="li-fsala"><a href="futbol.html?type=no_4">NÚMERO CUATRO</a></li>
+									        <li class="li-fsalon"><a href="futbol.html?type=no_3_infantil">NÚMERO TRES</a></li>
+									        <li class="li-micro"><a href="futbol.html?type=no_1_infantil">NÚMERO UNO</a></li>
+								         </ul>
+							        </li>
+
+							        <li class="li-futbol hidden-xs visible-sm-block visible-md-block visible-lg-block">
+							        	
+							        	<a href="futbol.html">FÚTBOL </a>
+								         <ul class="futbol-submenu item-submenu">
+								            <li class="sub-item">
+								            	<a class="btn btn-default btn-green btn-tipo" href="futbol.html?type=no_5" data-type="no_5">NÚMERO CINCO</a>
+								            </li>
+									        <li class="sub-item">
+									        	<a class="btn btn-default btn-green btn-tipo" href="futbol.html?type=no_4" data-type="no_4">NÚMERO CUATRO</a>
+									        </li>
+									        <li class="sub-item">
+									        	<a class="btn btn-default btn-green btn-tipo" href="futbol.html?type=no_3_infantil" data-type="no_3_infantil">NÚMERO TRES</a>
+									        </li>
+									        <li class="sub-item">
+									        	<a class="btn btn-default btn-green btn-tipo" href="futbol.html?type=no_1_infantil" data-type="no_1_infantil">NÚMERO UNO</a>
+									        </li>
+								         </ul>
+							        </li>
+
+							        <li class="li-fsala visible-xs-block hidden-sm visible-md-block visible-lg-block">
+							        	<a href="fsala.html">FÚTBOL SALA</a>
+							        </li>
+
+							         <li class="dropdown visible-xs-block hidden-sm hidden-md hidden-lg">
+								         <a href="fsalon.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">FÚTBOL SALÓN<span class="caret"></span></a>
+								         <ul class="dropdown-menu futbol-dropdown">
+								            <li class="sub-item">
+								            	<a href="fsalon.html?type=masculino" data-type="masculino">MASCULINO</a>
+								            </li>
+									        <li class="sub-item">
+									        	<a href="fsalon.html?type=femenino" data-type="femenino">FEMENINO</a>
+									        </li>
+									        <li class="sub-item">
+									        	<a href="fsalon.html?type=infantil" data-type="infantil">INFANTIL</a>
+									        </li>
+								         </ul>
+							        </li>
+
+							        <li class="li-fsalon hidden-xs visible-sm-block visible-md-block visible-lg-block">
+							        	<a href="fsalon.html">FÚTBOL SALÓN</a>
+							        	<ul class="fsala-submenu item-submenu">
+								            <li class="sub-item">
+								            	<a class="btn btn-default btn-green btn-tipo" href="fsalon.html?type=masculino" data-type="masculino">MASCULINO</a>
+								            </li>
+									        <li class="sub-item">
+									        	<a class="btn btn-default btn-green btn-tipo" href="fsalon.html?type=femenino" data-type="femenino">FEMENINO</a>
+									        </li>
+									        <li class="sub-item">
+									        	<a class="btn btn-default btn-green btn-tipo" href="fsalon.html?type=infantil" data-type="infantil">INFANTIL</a>
+									        </li>									        
+								         </ul>
+							        </li>
+
+							        <li class="dropdown visible-xs-block hidden-sm hidden-md hidden-lg">
+								         <a href="micro.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">MICRO<span class="caret"></span></a>
+								         <ul class="dropdown-menu futbol-dropdown">
+								            <li class="sub-item">
+								            	<a href="micro.html?type=normal" data-type="masculino">MICROFÚTBOL</a>
+								            </li>
+									        <li class="sub-item">
+									        	<a href="micro.html?type=m_aficionado" data-type="femenino">M. AFICIONADO</a>
+									        </li>
+								         </ul>
+							        </li>
+
+							        <li class="li-micro hidden-xs visible-sm-block visible-md-block visible-lg-block">
+							        	<a href="micro.html">MICRO</a>
+							        	<ul class="microfutbol-submenu item-submenu">
+								            <li class="sub-item">
+								            	<a class="btn btn-default btn-green" href="micro.html?type=normal">MICROFÚTBOL</a>
+								            </li>
+									        <li class="sub-item">
+									        	<a class="btn btn-default btn-green" href="micro.html?type=m_aficionado">M. AFICIONADO</a>
+									        </li>									        
+								         </ul>
+							        </li>
+
+							        <li class="dropdown visible-xs-block hidden-sm hidden-md hidden-lg">
+								         <a href="volleyball.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">VOLLEYBALL<span class="caret"></span></a>
+								         <ul class="dropdown-menu futbol-dropdown">
+								            <li class="sub-item">
+								            	<a href="volleyball.html?type=pvc">PVC</a>
+								            </li>
+									        <li class="sub-item">
+									        	<a href="volleyball.html?type=piel_durazno">PIEL DE DURAZNO</a>
+									        </li>
+								         </ul>
+							        </li>
+
+							        <li class="li-volleyball hidden-xs visible-sm-block visible-md-block visible-lg-block">
+							        	<a href="volleyball.html">VOLLEYBALL</a>
+							        	<ul class="volleyball-submenu item-submenu">
+								            <li class="sub-item">
+								            	<a class="btn btn-default btn-green" href="volleyball.html?type=pvc">PVC</a>
+								            </li>
+									        <li class="sub-item">
+									        	<a class="btn btn-default btn-green" href="volleyball.html?type=piel_durazno">PIEL DE DURAZNO</a>
+									        </li>									        
+								         </ul>
+							        </li>
+
+							        <li class="dropdown visible-xs-block hidden-sm hidden-md hidden-lg">
+								         <a href="baloncesto.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">BALONCESTO<span class="caret"></span></a>
+								         <ul class="dropdown-menu futbol-dropdown">
+								            <li class="sub-item">
+								            	<a href="baloncesto.html?type=no_7">NÚMERO SIETE</a>
+								            </li>
+									        <li class="sub-item">
+									        	<a href="baloncesto.html?type=no_6">NÚMERO SEIS</a>
+									        </li>
+									        <li class="sub-item">
+								            	<a href="baloncesto.html?type=no_5">NÚMERO CINCO</a>
+								            </li>
+									        <li class="sub-item">
+									        	<a href="baloncesto.html?type=no_3">NÚMERO TRES</a>
+									        </li>
+								         </ul>
+							        </li>
+
+							        <li class="li-baloncesto hidden-xs visible-sm-block visible-md-block visible-lg-block">
+							        	<a href="baloncesto.html">BALONCESTO</a>
+							        	<ul class="baloncesto-submenu item-submenu">
+								            <li class="sub-item">
+								            	<a class="btn btn-default btn-green btn-tipo" data-type="no_7" href="baloncesto.html?type=no_7">NÚMERO SIETE</a>
+								            </li>
+									        <li class="sub-item">
+									        	<a class="btn btn-default btn-green btn-tipo" data-type="no_6" href="baloncesto.html?type=no_6">NÚMERO SEIS</a>
+									        </li>	
+									        <li class="sub-item">
+								            	<a class="btn btn-default btn-green btn-tipo" data-type="no_5" href="baloncesto.html?type=no_5">NÚMERO CINCO</a>
+								            </li>
+									        <li class="sub-item">
+									        	<a class="btn btn-default btn-green btn-tipo" data-type="no_3" href="baloncesto.html?type=no_3">NÚMERO TRES</a>
+									        </li>								        
+								         </ul>
+							        </li>
+							        <li class="li-publicitarios"><a href="publicitarios.html">PUBLICITARIOS</a></li>
+							        <li class="li-contactenos"><a href="contacto.php">CONTÁCTENOS</a></li>						        
+							      </ul>
+					
+							    </div><!-- /.navbar-collapse -->								
+						  	</div><!-- /.container-fluid -->
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+
+		<div id="body" class="">
+			<div class="icono-lateral" data-toggle="modal" data-target="#modalcontact">
+				<img class="icono-lateral-img" src="assets/img/logo_lateral.png" alt="">
+			</div>
+			<div id="seccion-top">
+				<div class="container">
+					<div id="carousel-portada" class="carousel slide" data-ride="carousel">
+									  	
+
+					  	<!-- Wrapper for slides -->
+					  	<div class="carousel-inner" role="listbox">
+						    <div class="item active">
+							    <div id="banner-1">						
+									<div id="portada-tittle">
+										<label class="titulo-principal">¡la magia de tu jugada!</label>
+										<label class="titulo-slogan">ESTA EN <span>BALONES COSMOS</span></label>
+									</div>
+								</div>
+						    </div>
+						    <div class="item">
+						      	<div id="banner-2">						
+									<div id="portada-tittle">
+										<label class="titulo-principal">¡la magia de tu jugada!</label>
+										<label class="titulo-slogan">ESTA EN <span>BALONES COSMOS</span></label>
+									</div>
+								</div>
+						    </div>
+						    <div class="item">
+						      	<div id="banner-3">						
+									<div id="portada-tittle">
+										<label class="titulo-principal">¡la magia de tu jugada!</label>
+										<label class="titulo-slogan">ESTA EN <span>BALONES COSMOS</span></label>
+									</div>
+								</div>
+						    </div>					    	
+					  	</div>	
+					</div>
+					<div class="col-xs-12">
+						<div id="sub-portada-top">
+							<div id="sub-portada-content">
+								<div class="col-xs-12 col-sm-12 col-md-7">
+									<div class="row">
+										<div class="col-xs-4">
+											<div id="mini-futbol" class="mini-campo">
+												<div class="mini-campo-color">
+													<img src="assets/img/portada_balon1.png">
+												</div>
+											</div>
+										</div>
+										<div class="col-xs-4">
+											<div id="mini-volley" class="mini-campo">
+												<div class="mini-campo-color">
+													<img src="assets/img/portada_balon2.png">
+												</div>
+											</div>
+										</div>
+										<div class="col-xs-4">
+											<div id="mini-basket" class="mini-campo">
+												<div class="mini-campo-color">
+													<img src="assets/img/portada_balon3.png">
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-xs-12 col-sm-12 col-md-5">
+									<div id="carousel-example-generic" class="carousel slide"  data-interval="false" data-ride="carousel">
+									  <!-- Indicators -->
+									  	<div class="indicators-title">
+									  		<div class="indicators-center">
+									  			<a class="active" id="link-1" data-target="#indic-1" data-target="#carousel-example-generic" data-slide-to="0">COSMOS</a>
+									  			<a id="link-2" data-target="#indic-2" data-target="#carousel-example-generic" data-slide-to="1">MISIÓN</a>
+									  			<a id="link-3" data-target="#indic-3" data-target="#carousel-example-generic" data-slide-to="2">VISIÓN</a>
+									  		</div>
+									  	</div>
+									  	<ol class="carousel-indicators">
+										    <li id="indic-1" data-title="#link-1" data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+										    <li id="indic-2" data-title="#link-2" data-target="#carousel-example-generic" data-slide-to="1"></li>
+										    <li id="indic-3" data-title="#link-3" data-target="#carousel-example-generic" data-slide-to="2"></li>
+									  	</ol>
+
+									  <!-- Wrapper for slides -->
+									  	<div class="carousel-inner" role="listbox">
+										    <div class="item active">
+										      	<label class="carousel-msn">
+										      		BALONES COSMOS es una marca <span>100% COLOMBIANA</span> con más de 35 años en el mercado nacional y latinoamericano.
+										      	</label>
+										      	
+										      	<p>Su historial de investicación y desarrollo de productos para deporte comprende desde balones de cuero vacuno cosidos a mano, pasando por aquellos vulcanizados con retal de cuero de otras industrias, hasta los más modernos, producidos bajo estrictos parámetros de calidad; utilizando las materias primas y maquinaria de última generación disponibles en los mercados nacionales e internacionales.</p>
+
+										    </div>
+										    <div class="item">
+										      	<label class="carousel-msn">
+										      		
+										      	</label>
+										      	<p>
+										      		Fabricar y comercializar balones para todos los deportes, ofreciendo al deportista aficionado o profesional, del niño y del adulto, un balón que llene sus necesidades y que cumpla con las especificaciones técnicas exigidas en cada una de las diferentes prácticas deportivas.
+										      		Fomentando el empleo especialmente para el personal cabeza de familia. Distribuyendo accesorios y artículos deportivos de reconocida marca y calidad.
+
+										      	</p>
+										    </div>
+										    <div class="item">
+										      	<label class="carousel-msn">
+										      		
+										      	</label>
+										      	<p>				      		
+									      			A partir de su actual posición líder en la fabricación de balones, reconocida en el ámbito nacional e internacional y aprovechando sus elevados estándares de calidad y eficiencia productiva, más las ventajas competitivas que ofrece Colombia; estar en capacidad de atraer otras marcas que pueden ser producidas en nuestra empresa para el resto del mundo.
+										      	</p>
+										    </div>
+									  	</div>
+									  
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="home-seccion1">
+				<div class="container">
+					
+					<div class="col-xs-12" id="titulo-contacto">
+						<hr class="line-gray">					
+						<label>
+							<span class="circle mini-circle-green"></span>
+							FÚTBOL COSMOS
+						</label>
+						<span class="circle mini-circle-gray"></span>
+					</div>
+					<div id="seccion2-cabecera">
+					  	<div class="col-xs-12 col-sm-4 col-md-3" id="icons-balls">
+					  		<div class="col-xs-8 trapecio-gris">
+					  			<label>FÚTBOL</label>
+					  			<span class="circle mini-circle-gray"></span>
+					  		</div>						  		
+					  		<div class="col-xs-4 logo-content">
+					  			<img src="assets/img/icono_balon10.png">
+					  		</div>
+					  	</div>
+					  	<div class="col-xs-12 col-sm-8 col-md-9" id="panel-menu3">
+						  	<ul class="nav nav-tabs" role="tablist" id="publicitarios">
+							    <li role="presentation">
+							    	<a class="items-menu3" href="futbol.html?type=no_5">NÚMERO CINCO</a>
+							    </li>
+							    <li role="presentation">
+							    	<a class="items-menu3" href="futbol.html?type=no_4">NÚMERO CUATRO</a>
+							    </li>
+							    <li role="presentation">
+							    	<a class="items-menu3" href="futbol.html?type=no_3_infantil">NÚMERO TRES INFANTIL</a>
+							    </li>
+							    <li role="presentation">
+							    	<a class="items-menu3" href="futbol.html?type=no_1_infantil">NÚMERO UNO INFANTIL</a>
+							    </li>							    
+						  	</ul>
+					  	</div>
+				  	</div>
+
+				  	<!-- Tab panes -->
+					<div class="col-xs-12" id="tab-items3">
+						<div class="row">
+						    <div class="col-md-6 col-sm-12 col-xs-12 item-ball3 balones">
+						    	<div class="row">
+							    	<div class="col-xs-12" id="carousel-content">
+							    		<div id="balon-carousel">
+
+							    			<div class="option-balon2">
+												<img src="assets/img/icono_balon5.png">
+												<div class="option-caption">
+													<img class="balon-selected" src="assets/img/icono_selected.png">
+													<div class="img-info">
+														<div class="info-center">
+															<span class="circle micro-circle-green"></span>
+															<label>CARIOCA</label>
+															<span class="circle micro-circle-green"></span>
+														</div>
+													</div>
+												</div>	
+													
+											</div>
+											<div class="option-balon2">
+												<img src="assets/img/icono_balon6.png">
+												<div class="option-caption">
+													<img class="balon-selected" src="assets/img/icono_selected.png">
+													<div class="img-info">
+														<div class="info-center">
+															<span class="circle micro-circle-green"></span>
+															<label>GALAXY</label>
+															<span class="circle micro-circle-green"></span>
+														</div>
+													</div>
+												</div>	
+											</div>
+											<div class="option-balon2">
+												<img src="assets/img/icono_balon7.png">
+												<div class="option-caption">
+													<img class="balon-selected" src="assets/img/icono_selected.png">
+													<div class="img-info">
+														<div class="info-center">
+															<span class="circle micro-circle-green"></span>
+															<label>CRIPTON</label>
+															<span class="circle micro-circle-green"></span>
+														</div>
+													</div>
+												</div>	
+											</div>
+											<div class="option-balon2">
+												<img src="assets/img/icono_balon8.png">
+												<div class="option-caption">
+													<img class="balon-selected" src="assets/img/icono_selected.png">
+													<div class="img-info">
+														<div class="info-center">
+															<span class="circle micro-circle-green"></span>
+															<label>BORDEAUX</label>
+															<span class="circle micro-circle-green"></span>
+														</div>
+													</div>
+												</div>	
+											</div>
+											<div class="option-balon2">
+												<img src="assets/img/icono_balon9.png">
+												<div class="option-caption">
+													<img class="balon-selected" src="assets/img/icono_selected.png">
+													<div class="img-info">
+														<div class="info-center">
+															<span class="circle micro-circle-green"></span>
+															<label>ESCUDOS</label>
+															<span class="circle micro-circle-green"></span>
+														</div>
+													</div>
+												</div>	
+											</div>
+
+											<div class="option-balon2">
+												<img src="assets/img/icono_balon5.png">
+												<div class="option-caption">
+													<img class="balon-selected" src="assets/img/icono_selected.png">
+													<div class="img-info">
+														<div class="info-center">
+															<span class="circle micro-circle-green"></span>
+															<label>CARIOCA</label>
+															<span class="circle micro-circle-green"></span>
+														</div>
+													</div>
+												</div>	
+													
+											</div>
+											<div class="option-balon2">
+												<img src="assets/img/icono_balon6.png">
+												<div class="option-caption">
+													<img class="balon-selected" src="assets/img/icono_selected.png">
+													<div class="img-info">
+														<div class="info-center">
+															<span class="circle micro-circle-green"></span>
+															<label>GALAXY</label>
+															<span class="circle micro-circle-green"></span>
+														</div>
+													</div>
+												</div>	
+											</div>
+											<div class="option-balon2">
+												<img src="assets/img/icono_balon7.png">
+												<div class="option-caption">
+													<img class="balon-selected" src="assets/img/icono_selected.png">
+													<div class="img-info">
+														<div class="info-center">
+															<span class="circle micro-circle-green"></span>
+															<label>CRIPTON</label>
+															<span class="circle micro-circle-green"></span>
+														</div>
+													</div>
+												</div>	
+											</div>
+											<div class="option-balon2">
+												<img src="assets/img/icono_balon8.png">
+												<div class="option-caption">
+													<img class="balon-selected" src="assets/img/icono_selected.png">
+													<div class="img-info">
+														<div class="info-center">
+															<span class="circle micro-circle-green"></span>
+															<label>BORDEAUX</label>
+															<span class="circle micro-circle-green"></span>
+														</div>
+													</div>
+												</div>	
+											</div>
+											<div class="option-balon2">
+												<img src="assets/img/icono_balon9.png">
+												<div class="option-caption">
+													<img class="balon-selected" src="assets/img/icono_selected.png">
+													<div class="img-info">
+														<div class="info-center">
+															<span class="circle micro-circle-green"></span>
+															<label>ESCUDOS</label>
+															<span class="circle micro-circle-green"></span>
+														</div>
+													</div>
+												</div>	
+											</div>
+
+							    		</div>
+							    	</div>
+
+							    	<div class="col-xs-12">
+								    	<p class="info-cotizar">Desde los años 80 COSMOS ha sido reconocido como icono del micro fútbol gracias a su balón blanco, que se convirtió en referente de calidad, prestigio del cual goza en la actualidad.</p>
+							    	</div>
+
+						    	</div>
+						    </div>	
+						    
+						    <div class="col-md-3 col-sm-4 col-xs-12 item-ball3 volleiyball">
+						    	<div class="img-cover">
+						    		<img src="assets/img/home/carioca.png">
+						    		<div class="img-info2">
+						    				<div class="col-xs-5">
+									    		<span class="circle micro-circle-green"></span>
+						    					<label>CARIOCA</label>
+						    					<span class="circle micro-circle-green"></span>
+									    	</div>
+									    	<div class="col-xs-7">
+									    		<div class="row">
+									    			<div class="circle-space">
+									    				<a href="futbol.html?type=no_5&tipo=carioca">
+									    					<span class="circle2 circle-green">5</span>
+									    				</a>
+									    			</div>
+									    			<div class="circle-space">
+									    				<a href="futbol.html?type=no_4&tipo=carioca">
+										    				<span class="circle2 circle-green">4</span>
+										    			</a>
+									    			</div>
+									    			<div class="circle-space">
+									    				<a href="futbol.html?type=no_3_infantil&tipo=carioca">
+									    					<span class="circle2 circle-green">3</span>
+									    				</a>
+									    			</div>
+									    			<div class="circle-space">
+									    				<a href="futbol.html?type=no_1_infantil&tipo=carioca">
+									    					<span class="circle2 circle-green">1</span>
+									    				</a>
+									    			</div>
+									    		</div>
+									    	</div>							    			
+						    		</div>
+						    	</div>
+						    </div>
+						    <div class="col-md-3 col-sm-4 col-xs-12 item-ball3 baloncesto">
+						    	<div class="img-cover top-right">
+						    		<img class="" src="assets/img/home/galaxy.png">
+						    		<div class="img-info2">
+						    				<div class="col-xs-5">
+									    		<span class="circle micro-circle-green"></span>
+						    					<label>GALAXY</label>
+						    					<span class="circle micro-circle-green"></span>
+									    	</div>
+									    	<div class="col-xs-7">
+									    		<div class="row">
+									    			<div class="circle-space">
+									    				<a href="futbol.html?type=no_5&tipo=galaxy">
+									    					<span class="circle2 circle-green">5</span>
+									    				</a>
+									    			</div>
+									    			<div class="circle-space">
+									    				<a href="futbol.html?type=no_4&tipo=galaxy">
+										    				<span class="circle2 circle-green">4</span>
+										    			</a>
+									    			</div>
+									    			<div class="circle-space">
+									    				<a href="futbol.html?type=no_3_infantil&tipo=galaxy">
+									    					<span class="circle2 circle-green">3</span>
+									    				</a>
+									    			</div>
+									    			<div class="circle-space">
+									    				<a href="futbol.html?type=no_1_infantil&tipo=galaxy">
+									    					<span class="circle2 circle-green">1</span>
+									    				</a>
+									    			</div>
+									    		</div>
+									    	</div>							    			
+						    		</div>
+						    	</div>
+						    </div>
+						    <div class="col-md-3 col-sm-4 col-xs-12 item-ball3 volleiyball">
+						    	<div class="img-cover bottom-left">
+						    		<img class="" src="assets/img/home/cripton.png">
+						    		<div class="img-info2">
+						    				<div class="col-xs-5">
+									    		<span class="circle micro-circle-green"></span>
+						    					<label>CRIPTON</label>
+						    					<span class="circle micro-circle-green"></span>
+									    	</div>
+									    	<div class="col-xs-7">
+									    		<div class="row">
+									    			<div class="circle-space">
+									    				<a href="futbol.html?type=no_5&tipo=cripton">
+									    					<span class="circle2 circle-green">5</span>
+									    				</a>
+									    			</div>
+									    			<div class="circle-space">
+									    				<a href="futbol.html?type=no_4&tipo=cripton">
+										    				<span class="circle2 circle-green">4</span>
+										    			</a>
+									    			</div>
+									    			<div class="circle-space">
+									    				<a href="futbol.html?type=no_3_infantil&tipo=cripton">
+									    					<span class="circle2 circle-green">3</span>
+									    				</a>
+									    			</div>
+									    			<div class="circle-space">
+									    				<a href="futbol.html?type=no_1_infantil&tipo=cripton">
+									    					<span class="circle2 circle-green">1</span>
+									    				</a>
+									    			</div>
+									    		</div>
+									    	</div>							    			
+						    		</div>
+						    	</div>
+						    </div>
+						    <div class="col-md-3 col-sm-4 col-xs-12 item-ball3 baloncesto">
+						    	<div class="img-cover">
+						    		<img src="assets/img/home/bordeaux.png">
+						    		<div class="img-info2">
+						    				<div class="col-xs-5">
+									    		<span class="circle micro-circle-green"></span>
+						    					<label>BORDEAUX</label>
+						    					<span class="circle micro-circle-green"></span>
+									    	</div>
+									    	<div class="col-xs-7">
+									    		<div class="row">
+									    			<div class="circle-space">
+									    				<a href="futbol.html?type=no_5&tipo=bordeaux">
+									    					<span class="circle2 circle-green">5</span>
+									    				</a>
+									    			</div>
+									    			<div class="circle-space">
+									    				<a href="futbol.html?type=no_4&tipo=bordeaux">
+										    				<span class="circle2 circle-green">4</span>
+										    			</a>
+									    			</div>
+									    			<div class="circle-space">
+									    				<a href="futbol.html?type=no_3_infantil&tipo=bordeaux">
+									    					<span class="circle2 circle-green">3</span>
+									    				</a>
+									    			</div>
+									    			<div class="circle-space">
+									    				<a href="futbol.html?type=no_1_infantil&tipo=bordeaux">
+									    					<span class="circle2 circle-green">1</span>
+									    				</a>
+									    			</div>
+									    		</div>
+									    	</div>							    			
+						    		</div>
+						    	</div>
+						    </div>										
+							
+						    <div class="col-md-3 col-sm-4 col-xs-12 item-ball3 fdsalon">
+						    	<div class="img-cover">
+						    		<img src="assets/img/home/real-madrid.png">
+						    		<div class="img-info2">
+						    				<div class="col-xs-5">
+									    		<span class="circle micro-circle-green"></span>
+						    					<label>ESCUDOS</label>
+						    					<span class="circle micro-circle-green"></span>
+									    	</div>
+									    	<div class="col-xs-7">
+									    		<div class="row">
+									    			<div class="circle-space">
+									    				<a href="futbol.html?type=no_5&tipo=escudos">
+									    					<span class="circle2 circle-green">5</span>
+									    				</a>
+									    			</div>
+									    			<div class="circle-space">
+									    				<a href="futbol.html?type=no_4&tipo=escudos">
+										    				<span class="circle2 circle-green">4</span>
+										    			</a>
+									    			</div>
+									    			<div class="circle-space">
+									    				<a href="futbol.html?type=no_3_infantil&tipo=escudos">
+									    					<span class="circle2 circle-green">3</span>
+									    				</a>
+									    			</div>
+									    			<div class="circle-space">
+									    				<a href="futbol.html?type=no_1_infantil&tipo=escudos">
+									    					<span class="circle2 circle-green">1</span>
+									    				</a>
+									    			</div>
+									    		</div>
+									    	</div>							    			
+						    		</div>
+						    	</div>
+						    </div>
+						    <div class="col-md-3 col-sm-4 col-xs-12 item-ball3 maficionados">
+						    	<div class="img-cover bottom-right">
+						    		<img class="" src="assets/img/home/millonarios.png">
+						    		<div class="img-info2">
+						    				<div class="col-xs-5">
+									    		<span class="circle micro-circle-green"></span>
+						    					<label>ESCUDOS</label>
+						    					<span class="circle micro-circle-green"></span>
+									    	</div>
+									    	<div class="col-xs-7">
+									    		<div class="row">
+									    			<div class="circle-space">
+									    				<a href="futbol.html?type=no_5&tipo=escudos">
+									    					<span class="circle2 circle-green">5</span>
+									    				</a>
+									    			</div>
+									    			<div class="circle-space">
+									    				<a href="futbol.html?type=no_4&tipo=escudos">
+										    				<span class="circle2 circle-green">4</span>
+										    			</a>
+									    			</div>
+									    			<div class="circle-space">
+									    				<a href="futbol.html?type=no_3_infantil&tipo=escudos">
+									    					<span class="circle2 circle-green">3</span>
+									    				</a>
+									    			</div>
+									    			<div class="circle-space">
+									    				<a href="futbol.html?type=no_1_infantil&tipo=escudos">
+									    					<span class="circle2 circle-green">1</span>
+									    				</a>
+									    			</div>
+									    		</div>
+									    	</div>							    			
+						    		</div>
+						    	</div>
+						    </div>
+						</div>
+					</div> 
+					
+				</div>
+			</div>
+			<div id="home-seccion2">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12" id="titulo-centro-content">
+							<div class="titulo-centro">
+								<span class="mini-circle circle-green2 left"></span>
+								<span class="mini-circle circle-green2 right"></span>
+								<label>OTROS COSMOS</label>
+							</div>
+						</div>
+						<div class="col-xs-12">
+						  	<!-- Nav tabs -->
+						  	<div class="row">
+							  	<div class="col-xs-12" id="seccion2-cabecera">
+								  	<div class="col-xs-12 col-sm-4 col-md-3" id="icons-balls">
+								  		<div class="col-xs-4 logo-content">
+								  			<img src="assets/img/icono_balon1.png">
+								  		</div>
+								  		<div class="col-xs-4 logo-content">
+								  			<img src="assets/img/icono_balon2.png">
+								  		</div>
+								  		<div class="col-xs-4 logo-content">
+								  			<img src="assets/img/icono_balon3.png">
+								  		</div>
+								  	</div>
+								  	<div class="col-xs-12 col-sm-8 col-md-9" id="panel-menu">
+									  	<ul class="nav nav-tabs" role="tablist" id="otros-cosmos">
+										    <li role="presentation">
+										    	<a class="items-menu1" href="volleyball.html">VOLLEYBALL</a>
+										    </li>
+										    <li role="presentation">
+										    	<a class="items-menu1" href="baloncesto.html">BALONCESTO</a>
+										    </li>
+										    <li role="presentation">
+										    	<a class="items-menu1" href="fsalon.html">FÚTBOL DE SALÓN</a>
+										    </li>
+										    <li role="presentation">
+										    	<a class="items-menu1" href="micro.html?type=m_aficionado">M. AFICIONADO</a>
+										    </li>
+										    <li role="presentation">
+										    	<a class="items-menu1" href="medicinal.html">MEDICINALES</a>
+										    </li>
+									  	</ul>
+								  	</div>
+							  	</div>
+
+							  	<!-- Tab panes -->
+								<div class="col-xs-12" id="tab-items">
+									<div class="row">
+										
+									    <div class="col-md-3 col-sm-4 col-xs-12 item-ball volleiyball" data-prueba="volleiyball">
+									    	<div class="img-cover top-left bottom-left">
+									    		<img class="" src="assets/img/home/volleyball.png">
+									    		<div class="img-info2">
+									    			<div class="img-info2-content">
+									    				<a href="volleyball.html">
+										    				<span class="circle micro-circle-green"></span>
+										    				<label>PVC</label>
+										    				<span class="circle micro-circle-green"></span>
+									    				</a>
+									    			</div>							    			
+									    		</div>
+									    	</div>
+									    </div>
+									    <div class="col-md-3 col-sm-4 col-xs-12 item-ball baloncesto" data-prueba="baloncesto">
+									    	<div class="img-cover">								    		
+									    		<img src="assets/img/home/baloncesto.png">
+									    		<div class="img-info1">
+									    			<div class="col-xs-5">
+									    				<label>BALONCESTO</label>
+									    			</div>
+									    			<div class="col-xs-7">
+									    				<div class="row">
+									    					<div class="circle-space">
+									    						<a href="baloncesto.html?type=no_7">
+									    							<span class="circle2 circle-green">7</span>
+									    						</a>
+									    					</div>
+									    					<div class="circle-space">
+									    						<a href="baloncesto.html?type=no_6">
+										    						<span class="circle2 circle-green">6</span>
+										    					</a>
+									    					</div>
+									    					<div class="circle-space">
+									    						<a href="baloncesto.html?type=no_5">
+									    							<span class="circle2 circle-green">5</span>
+									    						</a>
+									    					</div>
+									    					<div class="circle-space">
+									    						<a href="baloncesto.html?type=no_3">
+									    							<span class="circle2 circle-green">3</span>
+									    						</a>
+									    					</div>
+									    				</div>
+									    			</div>
+									    		</div>
+									    	</div>
+									    </div>
+																				
+									    <div class="col-md-3 col-sm-4 col-xs-12 item-ball fdsalon" data-prueba="fdsalon">
+									    	<div class="img-cover">
+									    		<img src="assets/img/home/cripton-futbol-de-salon.png">
+									    		<div class="img-info1">
+									    			<div class="col-xs-5">
+									    				<label>F SALÓN</label>
+									    			</div>
+									    			<div class="col-xs-7">
+									    				<div class="row">
+									    					<div class="circle-space">
+									    						<a href="fsalon.html?type=masculino">
+										    						<span class="circle2 circle-green">M</span>
+										    					</a>
+									    					</div>
+									    					<div class="circle-space">
+									    						<a href="fsalon.html?type=femenino">
+									    							<span class="circle2 circle-green">F</span>
+									    						</a>
+									    					</div>
+									    					<div class="circle-space">
+									    						<a href="fsalon.html?type=infantil">
+									    							<span class="circle2 circle-green">I</span>
+									    						</a>
+									    					</div>
+									    				</div>
+									    			</div>
+									    		</div>
+									    	</div>
+									    </div>
+									    <div class="col-md-3 col-sm-4 col-xs-12 item-ball maficionados" data-prueba="maficionados">
+									    	<div class="img-cover top-right bottom-right">								    		
+									    		<img class="" src="assets/img/home/microfutbol-aficionado.png">
+									    		<div class="img-info2">
+									    			<div class="img-info2-content">
+									    				<a href="micro.html?type=m_aficionado">
+									    					<span class="circle micro-circle-green"></span>
+									    					<label>M. AFICIONADO</label>
+									    					<span class="circle micro-circle-green"></span>
+									    				</a>
+									    			</div>							    			
+									    		</div>
+									    	</div>
+									    </div>
+											
+									</div>
+								</div>  
+						  	</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="home-seccion3">
+				<div class="container">
+					<div class="row">
+					  	<!-- Nav tabs -->
+					  	<div class="col-xs-12" id="seccion2-cabecera">
+					  		<div class="row">
+							  	<div class="col-xs-12 col-sm-4 col-md-3" id="icons-balls">
+							  		<div class="col-xs-8 trapecio-gris">
+							  			<label>PUBLICITARIOS</label>
+							  			<span class="circle mini-circle-gray"></span>
+							  		</div>						  		
+							  		<div class="col-xs-4 logo-content">
+							  			<img src="assets/img/icono_balon4.png">
+							  		</div>
+							  	</div>
+							  	<div class="col-xs-12 col-sm-8 col-md-9" id="panel-menu2">
+								  	<ul class="nav nav-tabs" role="tablist" id="publicitarios">
+									    <li role="presentation">
+									    	<a class="items-menu2" href="futbol.html">FÚTBOL</a>
+									    </li>
+									    <li role="presentation">
+									    	<a class="items-menu2" href="fsala.html">FÚTBOL SALA</a>
+									    </li>
+									    <li role="presentation">
+									    	<a class="items-menu2" href="fsalon.html">FÚTBOL DE SALÓN</a>
+									    </li>
+									    <li role="presentation">
+									    	<a class="items-menu2" href="micro.html">MICRO FÚTBOL</a>
+									    </li>
+									    <li role="presentation">
+									    	<a class="items-menu2" href="baloncesto.html">BALONCESTO</a>
+									    </li>
+									    <li role="presentation">
+									    	<a class="items-menu2" href="volleyball.html">VOLLEYBALL</a>
+									    </li>
+								  	</ul>
+							  	</div>
+					  		</div>
+					  	</div>
+
+					  	<!-- Tab panes -->
+						<div class="col-xs-12" id="tab-items2">
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="row">
+										<div class="col-xs-12 col-sm-12 col-md-6">
+											<div class="row">
+											    <div class="col-sm-6 col-xs-12 item-ball2 futbol">
+											    	<div class="img-cover top-left">
+											    		<img class="" src="assets/img/home/austral-lens.png">
+											    		<div class="img-info2">
+											    			<div class="img-info2-content">
+											    				<a href="publicitarios.html">
+												    				<span class="circle micro-circle-green"></span>
+												    				<label>FÚTBOL</label>
+												    				<span class="circle micro-circle-green"></span>
+											    				</a>
+											    			</div>							    			
+											    		</div>
+											    	</div>
+											    </div>
+											    <div class="col-sm-6 col-xs-12 item-ball2 baloncesto">
+											    	<div class="img-cover">
+											    		<img src="assets/img/home/gatorade.png">
+											    		<div class="img-info2">
+											    			<div class="img-info2-content">
+											    				<a href="publicitarios.html">
+												    				<span class="circle micro-circle-green"></span>
+												    				<label>FÚTBOL SALÓN</label>
+												    				<span class="circle micro-circle-green"></span>
+											    				</a>
+											    			</div>							    			
+											    		</div>
+											    	</div>
+											    </div>
+											</div>
+										</div>
+										<div class="col-xs-12 col-sm-12 col-md-6">
+											<div class="row">
+											    <div class="col-sm-6 col-xs-12 item-ball2 fdsalon">
+											    	<div class="img-cover">
+											    		<img src="assets/img/home/gatorade-baloncesto.png">
+											    		<div class="img-info2">
+											    			<div class="img-info2-content">
+											    				<a href="publicitarios.html">
+												    				<span class="circle micro-circle-green"></span>
+												    				<label>BALONCESTO</label>
+												    				<span class="circle micro-circle-green"></span>
+											    				</a>
+											    			</div>							    			
+											    		</div>
+											    	</div>
+											    </div>
+											    <div class="col-sm-6 col-xs-12 item-ball2 maficionados">
+											    	<div class="img-cover top-right">
+											    		<img class="" src="assets/img/home/mobil.png">
+											    		<div class="img-info2">
+											    			<div class="img-info2-content">
+											    				<a href="publicitarios.html">
+												    				<span class="circle micro-circle-green"></span>
+												    				<label>VOLLEYBALL</label>
+												    				<span class="circle micro-circle-green"></span>
+											    				</a>
+											    			</div>							    			
+											    		</div>
+											    	</div>
+											    </div>
+										    </div>
+										</div>
+									
+										<div class="col-xs-12">
+											<div class="row">
+												<div class="col-xs-12 col-sm-12 col-md-6">
+													<div class="row">
+													    <div class="col-sm-6 col-xs-12 item-ball2 volleiyball">
+													    	<div class="img-cover bottom-left">
+													    		<img class="" src="assets/img/home/mobil-super.png">
+													    		<div class="img-info2">
+													    			<div class="img-info2-content">
+													    				<a href="publicitarios.html">
+														    				<span class="circle micro-circle-green"></span>
+														    				<label>FÚTBOL</label>
+														    				<span class="circle micro-circle-green"></span>
+													    				</a>
+													    			</div>							    			
+													    		</div>
+													    	</div>
+													    </div>
+													    <div class="col-sm-6 col-xs-12 item-ball2 baloncesto">
+													    	<div class="img-cover">
+													    		<img src="assets/img/home/golpe.png">
+													    		<div class="img-info2">
+													    			<div class="img-info2-content">
+													    				<a href="publicitarios.html">
+														    				<span class="circle micro-circle-green"></span>
+														    				<label>FÚTBOL SALA</label>
+														    				<span class="circle micro-circle-green"></span>
+													    				</a>
+													    			</div>							    			
+													    		</div>
+													    	</div>
+													    </div>
+													</div>
+												</div>
+											    <div class="col-xs-12 col-sm-12 col-md-6 item-ball2 fdsalon">
+											    	<div class="row">
+												    	<div class="col-xs-12">
+													    	<p class="info-cotizar">Todos nuestros productos están fabricados para un optimo desempeño en los diferentes eventos deportivos  sus características de elaboración garantizan durabilidad y alta efectividad.</p>
+												    	</div>
+												    	<div class="col-xs-12" id="boton-cotizar-content">
+													    	<button class="btn btn-cot" id="modalCot" data-toggle="modal" data-target="#ModalCotizar">COTIZAR</button>
+												    	</div>
+											    	</div>
+											    </div>	
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>  	
+
+					</div>
+					
+				</div>
+			</div>
+		</div>	
+		<div id="footer">
+			<div class="home-seccion1">
+				<div class="container">
+					<div class="col-xs-12" id="titulo-contacto">					
+						<label>
+							<span class="circle mini-circle-green"></span>
+							CONTÁCTENOS
+						</label>
+					</div>
+					<div id ="info-contacto" class="col-xs-12">
+						<div class="hidden-xs hidden-sm visible-md-block visible-lg-block">
+							<div class="col-md-3">						
+								<label>
+									<span class="glyphicon glyphicon-map-marker"></span>
+									Cra. 17 A # 54 – 57 Sur
+								</label>
+							</div>
+							<div class="col-md-5">						
+								<label>
+									<span class="glyphicon glyphicon-earphone"></span>
+									(571) 7141985 – 2794891 – 3144448829 
+								</label>
+							</div>
+							<div class="col-md-3">						
+								<label>
+									<span class="glyphicon glyphicon-envelope"></span>
+									info@balonescosmos.com
+								</label>
+							</div>
+						</div>
+						<div class="hidden-xs visible-sm-block hidden-md hidden-lg">
+							<div class="col-sm-5">						
+								<label>
+									<span class="glyphicon glyphicon-map-marker"></span>
+									Cra. 17 A # 54 – 57 Sur
+								</label>
+							</div>
+							<div class="col-sm-6">						
+								<label>
+									<span class="glyphicon glyphicon-earphone"></span>
+									(571) 7141985 – 2794891 – 3144448829 
+								</label>
+							</div>
+							<div class="col-sm-4">						
+								<label>
+									<span class="glyphicon glyphicon-envelope"></span>
+									info@balonescosmos.com
+								</label>
+							</div>
+						</div>
+						<div class="visible-xs-block hidden-sm hidden-md hidden-lg">
+							<div class="col-xs-12">						
+								<label>
+									<span class="glyphicon glyphicon-map-marker"></span>
+									Cra. 17 A # 54 – 57 Sur
+								</label>
+							</div>
+							<div class="col-xs-12">						
+								<label>
+									<span class="glyphicon glyphicon-earphone"></span>
+									(571) 7141985 – 2794891 – 3144448829 
+								</label>
+							</div>
+							<div class="col-xs-12">						
+								<label>
+									<span class="glyphicon glyphicon-envelope"></span>
+									info@balonescosmos.com
+								</label>
+							</div>
+						</div>
+					</div>
+				</div>				
+			</div>
+			<div class="seccion2">
+				<div id="cuadro-lateral-content">
+					<div id="cuadro-lateral">
+						<div class="col-xs-10 col-xs-offset-1 col-sm-7 col-sm-offset-1 col-md-7" id="social-logo-content">
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="social-logo" >
+										<a href="https://www.facebook.com/pages/Balones-Cosmos/252664828133500?fref=ts"><img src="assets/img/logo_facebook.png"></a>
+									</div>
+									<div class="social-logo">
+										<img src="assets/img/logo_twitter.png">
+									</div>
+									<a class="move-up btn-up hidden-xs visible-sm-block visible-md-block visible-lg-block" href="#">
+										<span class="glyphicon glyphicon-chevron-up"></span>
+									</a>
+									<a class="move-up btn-up2 visible-xs-block hidden-sm hidden-md hidden-lg" href="#">
+										<span class="glyphicon glyphicon-chevron-up"></span>
+									</a>
+								</div>								
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-6">
+							<div class="row">
+								<div class="col-xs-12 col-sm-6">
+									<div class="row">
+										<div class="col-xs-6">
+											<label class="title-foot">
+												<a href="#">FÚTBOL</a>
+											</label>
+											<label class="text-foot"><a href="futbol.html?type=no_5">Fútbol cinco</a></label>
+											<label class="text-foot"><a href="futbol.html?type=no_4">Fútbol cuatro</a></label>
+											<label class="text-foot"><a href="futbol.html?type=no_3_infantil">Fútbol tres infantil</a></label>
+											<label class="text-foot"><a href="futbol.html?type=no_1_infantil">Fútbol uno infantil</a></label>
+										</div>
+										<div class="col-xs-6">
+											<label class="title-foot">
+												<a href="#">FÚTBOL SALA</a>
+											</label>
+											<label class="text-foot"><a href="fsala.html">Carioca</a></label>
+											<label class="text-foot"><a href="fsala.html">Galaxy</a></label>
+											<label class="text-foot"><a href="fsala.html">Cripton</a></label>
+											<label class="text-foot"><a href="fsala.html">Bordeaux</a></label>
+										</div>
+									</div>
+								</div>
+								<div class="col-xs-12 col-sm-6">
+									<div class="row">
+										<div class="col-xs-6">
+											<label class="title-foot">
+												<a href="#">FÚTBOL SALÓN</a>
+											</label>
+											<label class="text-foot"><a href="fsalon.html">Carioca</a></label>
+											<label class="text-foot"><a href="fsalon.html">Galaxy</a></label>
+											<label class="text-foot"><a href="fsalon.html">Cripton</a></label>
+											<label class="text-foot"><a href="fsalon.html">Bordeaux</a></label>
+										</div>
+										<div class="col-xs-6">
+											<label class="title-foot">
+												<a href="#">MICRO FÚTBOL</a>
+											</label>
+											<label class="text-foot"><a href="micro.html?type=m_aficionado">Microfútbol Aficionado</a></label>
+											<label class="text-foot"><a href="micro.html">Carioca</a></label>
+											<label class="text-foot"><a href="micro.html">Galaxy</a></label>
+											<label class="text-foot"><a href="micro.html">Cripton</a></label>
+											<label class="text-foot"><a href="micro.html">Bordeaux</a></label>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-6">
+							<div class="row">
+								<div class="col-xs-12 col-sm-6">
+									<div class="row">						
+										<div class="col-xs-6">
+											<label class="title-foot">
+												<a href="#">VOLLEYBALL</a>
+											</label>
+											<label class="text-foot"><a href="volleyball.html?type=piel_durazno">Piel de durazno</a></label>
+											<label class="text-foot"><a href="volleyball.html?type=pvc">PVC</a></label>
+										</div>
+										<div class="col-xs-6">
+											<label class="title-foot">
+												<a href="#">BALONCESTO</a>
+											</label>
+											<label class="text-foot"><a href="baloncesto.html?type=no_7">Tamaño N. 7</a></label>
+											<label class="text-foot"><a href="baloncesto.html?type=no_6">Tamaño N. 6</a></label>
+											<label class="text-foot"><a href="baloncesto.html?type=no_5">Tamaño N. 5</a></label>
+											<label class="text-foot"><a href="baloncesto.html?type=no_3">Tamaño N. 3</a></label>
+										</div>
+									</div>
+								</div>
+								<div class="col-xs-12 col-sm-6">
+									<div class="row">
+										<div class="col-xs-6">
+											<label class="title-foot">
+												<a href="#">PUBLICITARIOS</a>
+											</label>
+											<label class="text-foot"><a href="publicitarios.html">Fútbol 5 - 4 - 3 - 1</a></label>
+											<label class="text-foot"><a href="publicitarios.html">Fútbol sala</a></label>
+											<label class="text-foot"><a href="publicitarios.html">Fútbol de salón</a></label>
+											<label class="text-foot"><a href="publicitarios.html">Microfútbol N. 3</a></label>
+											<label class="text-foot"><a href="publicitarios.html">Baloncesto</a></label>
+											<label class="text-foot"><a href="publicitarios.html">Volleiball</a></label>
+										</div>
+										<div class="col-xs-6">
+											<label class="title-foot">
+												<a href="medicinal.html">MEDICINAL</a>
+											</label>
+											<label class="text-foot"><a href="medicinal.html">kilos - 1 a 12</a></label>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer-barra">
+			<div class="container">
+				<div class="row">
+					<label class="col-xs-12">
+						<span class="glyphicon glyphicon-copyright-mark"></span>
+						<span class="strong">BALONES COSMOS</span>
+						<a href="http://suwwweb.com/" target="_blank">Hecho con <span class="glyphicon glyphicon-heart"></span> por suWWWeb S.A.S.</a>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<!-- Modal -->
+		<div class="modal fade" id="ModalCotizar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  	<div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			      	<div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				        <h4 class="modal-title" id="myModalLabel">
+				        	<span class="centrar">
+				        		<SPAN class="circle modal-circle-green left"></SPAN>
+				        		<SPAN class="circle modal-circle-green right"></SPAN>
+				        		<span class="texto">SOLICITAR COTIZACIÓN</span>
+				        	</span>
+				        </h4>
+				    </div>
+				    <div class="modal-body">
+			        	<form class="form-horizontal" id="form-cotizacion">
+			        		<div id="message-section">
+								<div class="row">
+									<div id="success" class="col-xs-12">                            
+						            	<p class="bg bg-success">Cotización enviada exitosamente.</p>
+							        </div>
+							        <div id="danger" class="col-xs-12">
+							            <p class="bg bg-danger"></p>
+							        </div>
+							        <div id="wait" class="col-xs-12">
+							            <p class="bg bg-warning">Cargando...</p>				            
+							        </div>
+								</div>
+							</div>
+		        			<div class="col-xs-12">
+								<div class="form-group">
+									<label class="col-xs-12">Asunto</label>
+							    	<div class="col-xs-12">
+							      		<input type="text" class="form-control" id="asunto" name="asunto">
+							    	</div>					    	
+							    </div>
+							</div>
+							<div class="col-xs-12">
+								<div class="form-group">
+							    	<label class="col-xs-12">Nombre</label>
+							    	<div class="col-xs-12">
+							      		<input type="text" class="form-control" id="nombre" name="nombre">
+							    	</div>		
+							  	</div>
+							</div>
+							<div class="col-xs-12">
+								<div class="form-group">
+							    	<label class="col-xs-12">Email</label>
+							    	<div class="col-xs-12">
+							      		<input type="email" class="form-control" id="email" name="email">
+							    	</div>	
+							  	</div>
+							</div>
+							<div class="col-xs-12">
+								<div class="form-group">
+									<label class="col-xs-12">Teléfono</label>
+							    	<div class="col-xs-12">
+							      		<input type="text" class="form-control" id="telefono" name="telefono">
+							    	</div>
+							    </div>
+							</div>
+							<div class="col-xs-12">
+								<div class="form-group">
+									<div class="col-xs-12" id="boton-cotizar-content">
+								    	<button class="btn btn-cot" type="submit">ENVIAR</button>
+							    	</div>
+								</div>
+							</div>
+			        	</form>
+				    </div>				    
+			    </div>
+		  	</div>
+		</div>
+
+		<!-- Modal -->
+		<div class="modal fade" id="modalcontact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  	<div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			      	<div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				        <h4 class="modal-title" id="myModalLabel">
+				        	<span class="centrar">
+				        		<SPAN class="circle modal-circle-green left"></SPAN>
+				        		<SPAN class="circle modal-circle-green right"></SPAN>
+				        		<span class="texto">CONTACTANOS</span>
+				        	</span>
+				        </h4>
+				    </div>
+				    <div class="modal-body">
+			        	<form class="form-horizontal" id="form-modal-contact">
+			        		<div id="message-section-contact">
+								<div class="row">
+									<div id="success" class="col-xs-12">                            
+						            	<p class="bg bg-success">Mensaje enviado exitosamente.</p>
+							        </div>
+							        <div id="danger" class="col-xs-12">
+							            <p class="bg bg-danger"></p>
+							        </div>
+							        <div id="wait" class="col-xs-12">
+							            <p class="bg bg-warning">Cargando...</p>				            
+							        </div>
+								</div>
+							</div>
+		        			<div class="col-xs-12">
+								<div class="form-group">
+									<label class="col-xs-12">Nombre</label>
+							    	<div class="col-xs-12">
+							      		<input type="text" class="form-control" id="nombre" name="nombre">
+							    	</div>					    	
+							    </div>
+							</div>
+							<div class="col-xs-12">
+								<div class="form-group">
+							    	<label class="col-xs-12">Teléfono</label>
+							    	<div class="col-xs-12">
+							      		<input type="text" class="form-control" id="telefono" name="telefono">
+							    	</div>		
+							  	</div>
+							</div>
+							<div class="col-xs-12">
+								<div class="form-group">
+							    	<label class="col-xs-12">Email</label>
+							    	<div class="col-xs-12">
+							      		<input type="email" class="form-control" id="email" name="email">
+							    	</div>	
+							  	</div>
+							</div>
+							<div class="col-xs-12">
+								<div class="form-group">
+									<label class="col-xs-12">Asunto</label>
+							    	<div class="col-xs-12">
+							      		<input type="text" class="form-control" id="asunto" name="asunto">
+							    	</div>
+							    </div>
+							</div>
+							<div class="col-xs-12">
+								<div class="form-group">
+									<label class="col-xs-12">Mensaje</label>
+							    	<div class="col-xs-12">
+							      		<input type="text" class="form-control" id="mensaje" name="mensaje">
+							    	</div>
+							    </div>
+							</div>
+							<div class="col-xs-12">
+								<div class="form-group">
+									<div class="col-xs-12" id="boton-cotizar-content">
+								    	<button class="btn btn-cot" type="submit">ENVIAR</button>
+							    	</div>
+								</div>
+							</div>
+			        	</form>
+				    </div>				    
+			    </div>
+		  	</div>
+		</div>
+
+		<script type="text/javascript" src="assets/js/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/jquery.mousewheel-3.0.6.min.js"></script>
+    	<script src="assets/js/jquery.rondell.js"></script>
+		<script type="text/javascript" src="assets/js/funciones.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+
+				$(".li-inicio").addClass("active");
+
+				$(".indicators-center a").on("click", function(){
+
+					var target = $(this).data("target");
+
+					$(".indicators-center a").removeClass("active");
+					$(".carousel-indicators li").removeClass("active");
+
+					$(this).addClass("active");
+					$(target).trigger("click");
+
+				});
+
+				$(".carousel-indicators li").on("click", function(){
+
+					var target = $(this).data("title");
+
+					$(".carousel-indicators li").removeClass("active");
+					$(".indicators-center a").removeClass("active");
+
+					$(target).addClass("active");
+					$(this).addClass("active");
+
+				});
+
+				$("#balon-carousel").rondell({
+			      	preset: "carousel",
+			      	size: {
+			      		width: 300,
+			      		height:100
+			      	},
+			     	center: {
+				      	left: 150,
+				      	top: 40
+				    }, 
+			      	scaling: 1,
+			      	radius: {
+				      	x: 110,
+				      	y: 0
+			      	},
+			      	lightbox: {
+				    	enabled: true,
+				    	displayReferencedImages: false
+					},
+			      	itemProperties: {
+				      	delay: 1,
+					    size: {
+					        width: 62,
+					        height: 124
+					    },
+					    sizeFocused: {
+					        width: 0,
+					        height: 0
+					    }
+					},
+				    controls: {
+				    	enabled: false,
+				    	fadeTime: 40000000,
+						margin: {
+						    x: 0,
+						    y: 0
+						}
+				    },
+				    visibleItems:5
+			    });
+
+				/*$(window).scroll(function(e){
+
+			  		var scrolled = $(window).scrollTop();
+
+			  		if (scrolled > 1000) {
+
+			  			$('#home-seccion2').css('top', ((scrolled*(0.1))-500)+'px');
+			  		}
+
+			  	});*/
+			});
+		</script>
+
+	</body>
+</html>
